@@ -1,0 +1,43 @@
+* {
+  text-align: center;
+  font-family: Arial;
+  user-select: none;
+}
+
+.count {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.incrementButton {
+  outline: none;
+  width: fit-content;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  background-color: rgb(34, 127, 189);
+}
+
+.resetButton {
+  outline: none;
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(34, 127, 189);
+}
